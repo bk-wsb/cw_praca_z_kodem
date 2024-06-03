@@ -25,6 +25,7 @@ jobs:
 
     - name: Test with pytest
       run: |
+        cw_praca_z_kodem/tests/test.py
         pip install pytest pytest-flask
+        pip install pytest-flask
         pytest
-
