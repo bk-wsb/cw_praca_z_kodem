@@ -25,7 +25,6 @@ jobs:
 
     - name: Test with pytest
       run: |
-        test.py
         pip install pytest
-        pytest
+        pytest test.py
 
