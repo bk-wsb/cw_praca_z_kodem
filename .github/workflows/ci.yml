@@ -25,7 +25,6 @@ jobs:
 
     - name: Test with pytest
       run: |
-        tests/test.py
         pip install pytest pytest-flask
         pip install pytest-flask
         pytest
